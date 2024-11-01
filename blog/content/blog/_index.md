@@ -1,6 +1,6 @@
 +++
 title = "offsitedark devblog"
-description = "My blog site."
+description = "my dev blog"
 sort_by = "date"
 template = "blog.html"
 page_template = "post.html"

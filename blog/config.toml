@@ -25,7 +25,7 @@
 #=========================================================================================
 
 base_url = "https://offsitedark.github.io"      # Domain name of your website
-title = "for the record"
+title = "OD Devblog"
 description = "offsitedark's devblog"
 default_language = "en"
 theme = "serene"
@@ -63,10 +63,11 @@ anchors = "on"
 name = "'dark' or 'offsite'"                            # Your name
 id = "offsitedark"                                      # Your id / username / handle
 bio = "cybersec systems engineer"                       # Your bio
-avatar = "twitter-icon-animegirl.webp"              # Your avatar
-links = [                             # Your links
+avatar = "img/avatar.webp"                              # Your avatar
+links = [                                               # Your links
+    # { name = "X", icon = "x", url = "https://x.com/offsitedark" },
+    { name = "Twitter", icon = "twitter", url = "https://x.com/offsitedark" },
     { name = "GitHub", icon = "github", url = "https://github.com/offsitedark" },
-    { name = "Twitter", icon = "twitter", url = "https://twitter.com/offsitedark" },
     { name = "Email", icon = "email", url = "mailto:offsitedark@proton.me" },
 ]
 
@@ -80,8 +81,9 @@ recent_more_text = "more »"
 sections = [
     { name = "blog", path = "/blog", is_external = false },
     { name = "projects", path = "/projects", is_external = false },
-    # { name = "about", path = "/about", is_external = false },
-    # { name = "github", path = "https://github.com/offsitedark", is_external = true },
+    { name = "about", path = "/about", is_external = false },
+    { name = "github", path = "https://github.com/offsitedark", is_external = true },
+    # { name = "test", path = "", is_external = false}
 ]
 blog_section_path = "/blog"
 
