@@ -2,3 +2,6 @@
 	path = blog/themes/serene
 	url = https://github.com/isunjn/serene.git
 	branch = latest
+[submodule "blog/themes/halve-z"]
+	path = blog/themes/halve-z
+	url = https://github.com/charlesrocket/halve-z
