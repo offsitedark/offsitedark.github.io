@@ -1,0 +1,19 @@
+[[project]]
+name = "offsitedark cloud project"
+desc = "a door to every cloud: a place to manage your cloud drives"
+tags = ["cloud", ""]
+img = ""
+links = [
+  { name = "", url = "" },
+  { name = "", url = "" },
+]
+
+[[project]]
+name = ""
+desc = ""
+tags = ["", ""]
+img = ""
+links = [
+  { name = "", url = "" },
+  { name = "", url = "" },
+]
