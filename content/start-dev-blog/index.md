@@ -1,13 +1,13 @@
 +++
-title = "Lorem Ipsum"
-description = "dolor sit amet, consectetur"
-date = 2020-05-01
+title = "Start of the Dev-blog"
+description = "Summary of content"
+date = 2024-11-27
 draft = false
-slug = "lorem-ipsum"
+slug = "start-dev-blog"
 
 [taxonomies]
-categories = ["pellentesque"]
-tags = ["hac", "velit", "risus"]
+categories = ["writing"]
+tags = ["new", "zola"]
 
 [extra]
 comments = true
@@ -15,7 +15,13 @@ lang = "pt"
 image = "https://zola386.netlify.app/lorem-ipsum/crt-phosphor-dots.png"
 +++
 
-Posuere urna nec tincidunt praesent semper. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Mattis rhoncus urna neque viverra justo nec ultrices dui. Nulla pellentesque dignissim enim sit. Arcu ac tortor dignissim convallis aenean et.
+!!!First addition to dev blog, used for reference!!!
+
+!!!First addition to dev blog, used for reference!!!
+
+!!!First addition to dev blog, used for reference!!!
+
+
 
 # Lorem ipsum
 ## dolor sit amet
