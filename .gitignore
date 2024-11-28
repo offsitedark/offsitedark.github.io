@@ -1,2 +1,7 @@
+# zola trash
+zola
 public
-.env
+static/processed_images
+
+# os trash
+.DS_Store
