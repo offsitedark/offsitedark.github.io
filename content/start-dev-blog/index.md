@@ -12,7 +12,7 @@ tags = ["new", "zola"]
 [extra]
 comments = true
 lang = "pt"
-image = "https://zola386.netlify.app/lorem-ipsum/crt-phosphor-dots.png"
+image = "https://offsitedark.github.io/start-dev-blog/crt-phosphor-dots.png"
 +++
 
 !!!First addition to dev blog, used for reference!!!
