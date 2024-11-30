@@ -1,4 +1,4 @@
-base_url = "https://offsitedark.github.io"
+base_url = "https://offsitedark.github.io/offsitedark.github.io"
 theme = "zola.386"
 
 default_language = "en"
