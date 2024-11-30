@@ -39,7 +39,7 @@ jobs:
           curl -s https://get.zola.rs | bash
 
       - name: Build the site
-        run: ./zola build
+        run: zola build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
