@@ -20,29 +20,21 @@
 #           # Or if publishing to the same repo, use the automatic token
 #           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #           # other test
-name: Deploy Zola Site
+name: zola push
 
-on:
-  push:
-    branches:
-      - main 
+on: 
+ push:
+  branches:
+   - main
 
 jobs:
-  build-deploy:
+  build:
+    name: Publish site
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Zola
-        run: |
-          curl -s https://get.zola.rs | bash
-
-      - name: Build the site
-        run: zola build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+    - name: Checkout main
+      uses: actions/checkout@v4
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.19.2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
