@@ -7,7 +7,7 @@ description = "A port of the BOOTSTRA.386 theme."
 
 # highlight_code = true
 compile_sass = true
-generate_rss = true
+# generate_rss = true
 build_search_index = true
 
 taxonomies = [
