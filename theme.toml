@@ -1,10 +1,15 @@
-name = "zola.386"
-description = "Zola port of the BOOTSTRA.386 theme."
+name = "Kita"
+description = "Kita is a clean, elegant and simple blog theme for Zola."
 license = "MIT"
-homepage = "https://github.com/lopes/zola.386"
-min_version = "0.10.1"
-demo = "https://zola386.netlify.com"
+homepage = "https://github.com/st1020/kita"
+min_version = "0.17.0"
+demo = "https://st1020.github.io/kita/"
 
 [author]
-name = "José Lopes"
-homepage = "https://github.com/lopes"
+name = "st1020"
+homepage = "https://st1020.com"
+
+[original]
+author = "nanxiaobei"
+homepage = "https://lee.so/"
+repo = "https://github.com/nanxiaobei/hugo-paper"
