@@ -1,6 +1,6 @@
 # zola trash
 zola
-public
+# public
 static/processed_images
 
 # os trash
