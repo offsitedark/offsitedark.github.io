@@ -28,7 +28,7 @@ mermaid = true
 Then you can use the `mermaid()` shortcodes like:
 
 ```markdown
-{%/* mermaid() */%}
+<!-- {%/* mermaid() */%} -->
 
 graph TD;
 A-->B;
