@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "e563b41aabd2d70b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DOMAIN (Section) 8 - Software Development Security"
+            }
+          },
+          {
+            "id": "74389c9ab66ee6f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DOMAIN (Section) 8 - Software Development Security"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,11 +206,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "74389c9ab66ee6f6",
   "lastOpenFiles": [
-    "category-folder/index.md",
+    "Untitled 1.md",
+    "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
+    "Untitled.md",
     "index.md",
-    "category-folder/Some note.md",
-    "category-folder"
+    "Reading - The/Reading The Official (ISC)2 CISSP CBK Reference 2021 6th Edition.md",
+    "Untitled 1",
+    "Untitled",
+    "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition"
   ]
 }
