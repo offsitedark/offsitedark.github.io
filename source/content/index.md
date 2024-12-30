@@ -1,5 +1,5 @@
 ---
-title: offsitedark devblog
+title: welcome
 ---
 
 Hello world!
