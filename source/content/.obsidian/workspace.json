@@ -63,8 +63,7 @@
               "title": "DOMAIN (Section) 8 - Software Development Security"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,10 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74389c9ab66ee6f6",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
+    "Untitled 1.md",
     "Untitled.md",
     "index.md",
     "Reading - The/Reading The Official (ISC)2 CISSP CBK Reference 2021 6th Edition.md",
