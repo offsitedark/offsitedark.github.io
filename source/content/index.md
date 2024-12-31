@@ -1,5 +1,5 @@
 ---
-title: welcome
+title: welcome to the devblog 📝
 ---
 
 Hello world!

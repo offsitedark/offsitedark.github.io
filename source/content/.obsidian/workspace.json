@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Level Order Traversal w Binary Tree -.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Level Order Traversal w Binary Tree -"
             }
           },
           {
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205.5
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -207,10 +207,13 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "traversal-binary-tree-kubernetes.jpg",
+    "Pasted image 20241231104135.png",
+    "traversal-binary-tree.jpg",
+    "index.md",
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "index.md",
+    "Level Order Traversal w Binary Tree -.md",
     "Reading - The/Reading The Official (ISC)2 CISSP CBK Reference 2021 6th Edition.md",
     "Untitled 1",
     "Untitled",
