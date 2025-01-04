@@ -163,7 +163,7 @@ int main()
 Output: Level Order Traversal of Binary Tree: 1 2 3 4 5 6
 ```
 
-### Explaining...
+### Explaining... fyi this is an unnecessary but a useful rabbit hole
 
 Include needed class libraries & make a namespace scope
 ```
@@ -191,25 +191,131 @@ struct Node {                          <--- structure named Node
 ```
 struct Node {
 ```
-*Unlike Arrays, ***Structures in C++** are user defined data types which are used to store group of items of non-similar data types.*
+*Unlike Arrays, ***Structures in C++*** *are user defined data types which are used to store group of items of non-similar data types.*
 
 ```
     Node* left;
     Node* right;
 ```
-*The asterisk (`*`) indicates that `left` is a **pointer** to a `Node`. In this context:
 
-- `Node` is the name of the structure being defined.
-- `Node*` means that `left` is a pointer that can hold the address of another `Node` object.*
+*The asterisk (`*`) indicates that `left` is a **pointer** to a `Node`. In this context:* 
+- *`Node` is the name of the structure being defined.*
+- *`Node*` means that `left` is a pointer that can hold the address of another `Node` object.*
 
 ```
     Node(int value): data(value),
 ```
-*A **constructor** for the `Node` structure. A constructor is a special function that initializes objects of the structure when they are created.
-- `Node(int value)` takes an integer `value` as an argument.
-- `: data(value)` is an **initializer list**, which initializes the `data` member with the value passed to the constructor. For example, if you call `Node(10)`, the `data` member will be initialized to `10`.*
+*A **constructor** for the `Node` structure. A constructor is a special function that initializes objects of the structure when they are created.*
+- *`Node(int value)` takes an integer `value` as an argument.*
+- *`: data(value)` is an **initializer list**, which initializes the `data` member with the value passed to the constructor. For example, if you call `Node(10)`, the `data` member will be initialized to `10`.*
 
 ```
     left(nullptr), right(nullptr)
 ```
 *This part of the initializer list sets the `left` and `right` pointers to `nullptr`, indicating that the node has no children when it is first created. `nullptr` is a special value representing an invalid or empty pointer.*
+
+
+```
+// function for level order traversal
+void levelOrderTraversal(Node* root)                 <--- new function
+{
+   // checking if the tree is empty or not
+    if (root == nullptr)
+        return;
+
+    // creating and initializing queue with root as first
+    // element
+    queue<Node*> q;
+    q.push(root);
+
+    // loop that will run till the q is empty
+    while (!q.empty()) {
+
+        // visiting current node which is nothing but
+        // q.front()
+        Node* node = q.front();
+        q.pop();
+        cout << node->data << " ";
+
+        // pushing left child and rightchild if they exists.
+        if (node->left != nullptr)
+            q.push(node->left);
+        if (node->right != nullptr)
+            q.push(node->right);
+    }
+}
+```
+
+yea just kidding im too lazy to explain this shit so i just asked Grok this time here it is read it - I want to move on to actually doing the binary tree i wanted to do
+
+"
+Here's a line-by-line analysis of the provided C++ code for level order traversal of a binary tree:
+
+```cpp
+void levelOrderTraversal(Node* root)                 <--- new function
+```
+
+- This line declares a function named levelOrderTraversal that takes a pointer to a Node as an argument. The function is void because it doesn't return anything; it prints directly to the console.
+
+```cpp
+    if (root == nullptr)
+        return;
+```
+
+- Checks if the root node is null. If so, there's no tree to traverse, so the function returns immediately to avoid processing.
+
+```cpp
+    queue<Node*> q;
+```
+
+- Declares a queue to hold pointers to Node. This will be used for breadth-first traversal.
+
+```cpp
+    q.push(root);
+```
+
+- Adds the root node to the queue. This is the starting point of the traversal.
+
+```cpp
+    while (!q.empty()) {
+```
+
+- Begins a loop that continues as long as there are nodes in the queue. This ensures all levels of the tree are processed.
+
+
+```cpp
+        Node* node = q.front();
+```
+
+- Retrieves the front node of the queue without removing it. This node is the next to be processed.
+
+```cpp
+        q.pop();
+```
+
+- Removes the front node from the queue after processing, preparing for the next node.
+
+```cpp
+        cout << node->data << " ";
+```
+
+- Prints the data of the current node. The space after data ensures nodes are separated in output.
+
+```cpp
+        if (node->left != nullptr)
+            q.push(node->left);
+```
+
+- Checks if there's a left child. If it exists, it's added to the queue for later processing. This ensures all children of a node are processed after the parent.
+
+```cpp
+        if (node->right != nullptr)
+            q.push(node->right);
+```
+
+- Similar to the left child check, this adds the right child to the queue if it exists.
+
+
+This function implements a level order traversal (or breadth-first traversal) where nodes at the same depth are visited before moving to the next depth level. It uses a queue to manage which nodes to visit next, ensuring that all nodes on one level are processed before moving to nodes on the next level.
+
+"
