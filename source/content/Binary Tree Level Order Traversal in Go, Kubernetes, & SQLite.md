@@ -163,7 +163,7 @@ int main()
 Output: Level Order Traversal of Binary Tree: 1 2 3 4 5 6
 ```
 
-### Explaining...
+### Explaining... fyi this is an unnecessary but a useful rabbit hole
 
 Include needed class libraries & make a namespace scope
 ```
@@ -191,25 +191,59 @@ struct Node {                          <--- structure named Node
 ```
 struct Node {
 ```
-*Unlike Arrays, ***Structures in C++** are user defined data types which are used to store group of items of non-similar data types.*
+*Unlike Arrays, ***Structures in C++*** *are user defined data types which are used to store group of items of non-similar data types.*
 
 ```
     Node* left;
     Node* right;
 ```
-*The asterisk (`*`) indicates that `left` is a **pointer** to a `Node`. In this context:
 
-- `Node` is the name of the structure being defined.
-- `Node*` means that `left` is a pointer that can hold the address of another `Node` object.*
+*The asterisk (`*`) indicates that `left` is a **pointer** to a `Node`. In this context:* 
+- *`Node` is the name of the structure being defined.*
+- *`Node*` means that `left` is a pointer that can hold the address of another `Node` object.*
 
 ```
     Node(int value): data(value),
 ```
-*A **constructor** for the `Node` structure. A constructor is a special function that initializes objects of the structure when they are created.
-- `Node(int value)` takes an integer `value` as an argument.
-- `: data(value)` is an **initializer list**, which initializes the `data` member with the value passed to the constructor. For example, if you call `Node(10)`, the `data` member will be initialized to `10`.*
+*A **constructor** for the `Node` structure. A constructor is a special function that initializes objects of the structure when they are created.*
+- *`Node(int value)` takes an integer `value` as an argument.*
+- *`: data(value)` is an **initializer list**, which initializes the `data` member with the value passed to the constructor. For example, if you call `Node(10)`, the `data` member will be initialized to `10`.*
 
 ```
     left(nullptr), right(nullptr)
 ```
 *This part of the initializer list sets the `left` and `right` pointers to `nullptr`, indicating that the node has no children when it is first created. `nullptr` is a special value representing an invalid or empty pointer.*
+
+
+```
+// function for level order traversal
+void levelOrderTraversal(Node* root)                 <--- new function
+{
+   // checking if the tree is empty or not
+    if (root == nullptr)
+        return;
+
+    // creating and initializing queue with root as first
+    // element
+    queue<Node*> q;
+    q.push(root);
+
+    // loop that will run till the q is empty
+    while (!q.empty()) {
+
+        // visiting current node which is nothing but
+        // q.front()
+        Node* node = q.front();
+        q.pop();
+        cout << node->data << " ";
+
+        // pushing left child and rightchild if they exists.
+        if (node->left != nullptr)
+            q.push(node->left);
+        if (node->right != nullptr)
+            q.push(node->right);
+    }
+}
+```
+
+
