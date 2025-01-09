@@ -1,8 +1,8 @@
 ---
-title: Добро Пожаловать; DEVBLOG📝
+title: DEVBLOG 📝
 ---
 
-Hello world!
+Hello world! Добро Пожаловать,
 
 THAT (tech) Part of Twitter,
 
