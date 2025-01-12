@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Understanding of Security Principles/0. Index - Security Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "0. Index - Security Principles"
+            }
+          },
+          {
+            "id": "0ff57fa4a55cc31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Understanding of Security Principles/0. Index - Security Principles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Index - Security Principles"
             }
           },
           {
@@ -49,7 +63,8 @@
               "title": "DOMAIN (Section) 8 - Software Development Security"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,11 +206,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "0ff57fa4a55cc31d",
   "lastOpenFiles": [
+    "Understanding of Security Principles/4. Zero-Trust in Security.md",
+    "Understanding of Security Principles/0. Index - Security Principles.md",
+    "Understanding of Security Principles/3. Security Defense-in-Depth.md",
+    "Understanding of Security Principles/2. Least Privilege Security.md",
+    "Understanding of Security Principles/1. The Security CIA Triad.md",
+    "Yumemono (夢物).md",
+    "index.md",
+    "Understanding of Security Principles",
     "Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
     "Untitled.canvas",
-    "index.md",
     "level-order-in-cpp---animated 1.gif",
     "level-order-in-cpp---animated.gif",
     "Pasted image 20241231105117.png",
