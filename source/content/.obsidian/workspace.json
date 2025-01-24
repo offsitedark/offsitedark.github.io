@@ -206,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ff57fa4a55cc31d",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Code Challenges",
     "Understanding of Security Principles/0. Index - Security Principles.md",
     "Deepseek prompts/Understanding gRPC Framework in Rust.md",
     "Untitled.md",
@@ -219,7 +220,7 @@
     "Yumemono (夢物).md",
     "index.md",
     "Understanding of Security Principles",
-    "Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
+    "Code Challenges/Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
     "Untitled.canvas",
     "level-order-in-cpp---animated 1.gif",
     "level-order-in-cpp---animated.gif",
