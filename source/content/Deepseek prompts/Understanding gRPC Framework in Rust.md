@@ -1,3 +1,5 @@
+![[39a320b026181de97d0a95c4ec6899d8.jpg]]
+
 gRPC is a modern, high-performance RPC (Remote Procedure Call) framework developed by Google. It allows you to define services and message types using Protocol Buffers (protobufs) and generates client and server code for various programming languages, including Rust.
 
 In Rust, the most popular crate for working with gRPC is **`tonic`**. Tonic is a fast, async gRPC implementation that leverages Rust's `async/await` syntax and the `tokio` runtime for asynchronous operations. It provides a type-safe and idiomatic way to build gRPC services and clients in Rust.
