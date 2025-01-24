@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Understanding of Security Principles/0. Index - Security Principles.md",
+                "file": "Deepseek prompts/Understanding gRPC Framework in Rust.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Index - Security Principles"
+              "title": "Understanding gRPC Framework in Rust"
             }
           },
           {
@@ -208,8 +208,11 @@
   },
   "active": "0ff57fa4a55cc31d",
   "lastOpenFiles": [
-    "Understanding of Security Principles/4. Zero-Trust in Security.md",
     "Understanding of Security Principles/0. Index - Security Principles.md",
+    "Deepseek prompts/Understanding gRPC Framework in Rust.md",
+    "Untitled.md",
+    "Deepseek prompts",
+    "Understanding of Security Principles/4. Zero-Trust in Security.md",
     "Understanding of Security Principles/3. Security Defense-in-Depth.md",
     "Understanding of Security Principles/2. Least Privilege Security.md",
     "Understanding of Security Principles/1. The Security CIA Triad.md",
@@ -228,7 +231,6 @@
     "Untitled 1.md",
     "Reading - The/Reading The Official (ISC)2 CISSP CBK Reference 2021 6th Edition.md",
     "Untitled 1",
-    "Untitled",
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition"
   ]
 }
