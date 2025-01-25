@@ -22,6 +22,23 @@
             }
           },
           {
+<<<<<<< HEAD
+=======
+            "id": "0ff57fa4a55cc31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deepseek prompts/Understanding gRPC Framework in Rust.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Understanding gRPC Framework in Rust"
+            }
+          },
+          {
+>>>>>>> ddf90a0a5b8a2cef4d38f43a7a45735ec1c6a0bc
             "id": "e563b41aabd2d70b",
             "type": "leaf",
             "state": {
@@ -191,18 +208,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
     "SPLOITUS - Writeups/Exploit for Improper Authentication in Ivanti Connect Secure.md",
     "index.md",
     "Understanding of Security Principles/0. Index - Security Principles.md",
+=======
+  "active": "b77831b90dd9f87b",
+  "lastOpenFiles": [
+    "Code Challenges",
+    "Understanding of Security Principles/0. Index - Security Principles.md",
+    "Deepseek prompts/Understanding gRPC Framework in Rust.md",
+    "Untitled.md",
+    "Deepseek prompts",
+>>>>>>> ddf90a0a5b8a2cef4d38f43a7a45735ec1c6a0bc
     "Understanding of Security Principles/4. Zero-Trust in Security.md",
     "Understanding of Security Principles/3. Security Defense-in-Depth.md",
     "Understanding of Security Principles/2. Least Privilege Security.md",
     "Understanding of Security Principles/1. The Security CIA Triad.md",
     "Yumemono (夢物).md",
     "Understanding of Security Principles",
-    "Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
+    "Code Challenges/Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
     "Untitled.canvas",
     "level-order-in-cpp---animated 1.gif",
     "level-order-in-cpp---animated.gif",
@@ -213,8 +240,12 @@
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
     "Untitled 1.md",
     "Reading - The/Reading The Official (ISC)2 CISSP CBK Reference 2021 6th Edition.md",
+<<<<<<< HEAD
     "SPLOITUS - Writeups",
     "Untitled",
+=======
+    "Untitled 1",
+>>>>>>> ddf90a0a5b8a2cef4d38f43a7a45735ec1c6a0bc
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition"
   ]
 }
