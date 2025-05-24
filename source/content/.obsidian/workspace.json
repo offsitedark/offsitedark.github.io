@@ -192,8 +192,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be15434b7f993e18",
+  "active": "9ae9d5a082df5fab",
   "lastOpenFiles": [
+    "CVE Reports 1/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
+    "CVE Reports 1/Use-After-Free/Untitled.md",
+    "CVE Reports 1/Use-After-Free/CVE-2025-29824 - Exploit for Use After Free in Microsoft.md",
+    "CVE Reports 1/SQL Injections/CVE-2022-21661 - Exploit for SQL Injection in Wordpress.md",
+    "CVE Reports 1/URLs",
+    "CVE Reports 1/Use-After-Free",
+    "CVE Reports 1/Apache",
+    "CVE Reports 1/SQL Injections",
+    "CVE Reports 1",
     "index.md",
     "39a320b026181de97d0a95c4ec6899d8.jpg",
     "CVE Reports/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
@@ -218,7 +227,6 @@
     "Understanding of Security Principles/0. Index - Security Principles.md",
     "Reading - The Official (ISC)2 CISSP CBK Reference 2021 6th Edition/DOMAIN (Section) 8 - Software Development Security.md",
     "Code Challenges/Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
-    "Code Challenges 1/Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md",
-    "Code Challenges 1"
+    "Code Challenges 1/Binary Tree Level Order Traversal in Go, Kubernetes, & SQLite.md"
   ]
 }
