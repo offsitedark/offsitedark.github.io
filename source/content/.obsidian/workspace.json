@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yumemono (夢物).md",
+                "file": "CVE Reports/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Yumemono (夢物)"
+              "title": "CVE-2024-44258 - Exploit for Link Following in Apple iPad OS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yumemono (夢物).md",
+                "file": "CVE Reports/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Yumemono (夢物)"
+              "title": "Outline of CVE-2024-44258 - Exploit for Link Following in Apple iPad OS"
             }
           },
           {
@@ -179,8 +179,9 @@
   },
   "active": "be15434b7f993e18",
   "lastOpenFiles": [
-    "Deepseek prompts/Choosing React, Vue, Svelte, or Next.js.md",
+    "CVE Reports/SQL Injections/CVE-2022-21661 - Exploit for SQL Injection in Wordpress.md",
     "Yumemono (夢物).md",
+    "Deepseek prompts/Choosing React, Vue, Svelte, or Next.js.md",
     "CVE Reports 1/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
     "CVE Reports 1/Use-After-Free/Untitled.md",
     "CVE Reports 1/Use-After-Free/CVE-2025-29824 - Exploit for Use After Free in Microsoft.md",
@@ -194,7 +195,6 @@
     "39a320b026181de97d0a95c4ec6899d8.jpg",
     "CVE Reports/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS.md",
     "Deepseek prompts/Understanding gRPC Framework in Rust.md",
-    "CVE Reports/SQL Injections/CVE-2022-21661 - Exploit for SQL Injection in Wordpress.md",
     "CVE Reports/Use-After-Free/CVE-2025-29824 - Exploit for Use After Free in Microsoft.md",
     "CVE Reports/URLs/CVE-2024-44258 - Exploit for Link Following in Apple iPad OS 1.md",
     "Pasted image 20241231104135.png",
