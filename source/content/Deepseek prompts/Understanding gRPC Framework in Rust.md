@@ -1,3 +1,9 @@
+---
+date: 2025-01-24
+created: 2025-01-24
+lastmod: 2025-01-24
+modified: 2025-01-24
+---
 ![[39a320b026181de97d0a95c4ec6899d8.jpg]]
 
 gRPC is a modern, high-performance RPC (Remote Procedure Call) framework developed by Google. It allows you to define services and message types using Protocol Buffers (protobufs) and generates client and server code for various programming languages, including Rust.

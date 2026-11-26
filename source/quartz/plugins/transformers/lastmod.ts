@@ -12,8 +12,21 @@ const defaultOptions: Options = {
   priority: ["frontmatter", "git", "filesystem"],
 }
 
+function parseDate(d: any): Date {
+  // Date-only YAML values like 2025-01-12 must be local calendar dates.
+  // `new Date("2025-01-12")` is UTC midnight, which becomes the previous day
+  // in US timezones and would show the wrong original post date.
+  if (typeof d === "string") {
+    const m = d.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/)
+    if (m) {
+      return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]))
+    }
+  }
+  return new Date(d)
+}
+
 function coerceDate(fp: string, d: any): Date {
-  const dt = new Date(d)
+  const dt = parseDate(d)
   const invalidDate = isNaN(dt.getTime()) || dt.getTime() === 0
   if (invalidDate && d !== undefined) {
     console.log(
@@ -49,9 +62,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
                 created ||= file.data.frontmatter.date as MaybeDate
+                created ||= file.data.frontmatter.created as MaybeDate
                 modified ||= file.data.frontmatter.lastmod as MaybeDate
                 modified ||= file.data.frontmatter.updated as MaybeDate
                 modified ||= file.data.frontmatter["last-modified"] as MaybeDate
+                modified ||= file.data.frontmatter.modified as MaybeDate
                 published ||= file.data.frontmatter.publishDate as MaybeDate
               } else if (source === "git") {
                 if (!repo) {

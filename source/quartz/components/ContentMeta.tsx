@@ -19,6 +19,14 @@ const defaultOptions: ContentMetaOptions = {
   showComma: true,
 }
 
+function startOfLocalDay(d: Date): number {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()
+}
+
+function isLaterCalendarDay(later: Date, earlier: Date): boolean {
+  return startOfLocalDay(later) > startOfLocalDay(earlier)
+}
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   // Merge options with defaults
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
@@ -30,7 +38,14 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+        const created = fileData.dates.created ?? getDate(cfg, fileData)
+        const modified = fileData.dates.modified
+        if (created) {
+          segments.push(formatDate(created, cfg.locale))
+        }
+        if (created && modified && isLaterCalendarDay(modified, created)) {
+          segments.push(`Last edited ${formatDate(modified, cfg.locale)}`)
+        }
       }
 
       // Display reading time if enabled

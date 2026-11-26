@@ -1,5 +1,9 @@
 ---
 title: DEVBLOG 📝
+date: 2024-10-05
+created: 2024-10-05
+lastmod: 2025-01-08
+modified: 2025-01-08
 ---
 
 Hello world! Добро Пожаловать,

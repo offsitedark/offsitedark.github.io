@@ -1,3 +1,9 @@
+---
+date: 2025-01-25
+created: 2025-01-25
+lastmod: 2025-01-25
+modified: 2025-01-25
+---
 Choosing between React, Vue, Svelte, or Next.js depends on your project requirements, team expertise, and long-term goals. Here's a breakdown to help you decide:
 
 ---

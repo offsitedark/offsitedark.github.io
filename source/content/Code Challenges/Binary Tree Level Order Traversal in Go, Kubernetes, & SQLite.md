@@ -1,3 +1,9 @@
+---
+date: 2024-12-31
+created: 2024-12-31
+lastmod: 2025-01-24
+modified: 2025-01-24
+---
 # Context: 
 
 So there was a tweet the other day...
@@ -46,7 +52,7 @@ Binary Tree Level Order Traversal in C++
 Last Updated : 02 May, 2024
 
 Trees are the type of data structure that stores the data in the form of nodes having a parent or children or both connected through edges. 
-It leads to a hierarchical tree-like structure that can be traversed in multiple ways such as —preorder, inorder, postorder, and level order. 
+It leads to a hierarchical tree-like structure that can be traversed in multiple ways such as preorder, inorder, postorder, and level order. 
 A binary tree is a tree data structure a node can only have 2 children at max.
 
 Level Order Traversal of Binary Tree in C++
