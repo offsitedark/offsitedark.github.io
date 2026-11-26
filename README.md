@@ -1,23 +1,30 @@
-# Obsidian / Quartz / GitHub Pages Template
+# Offsitedark Devblog
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+Live site: [offsitedark.github.io](https://offsitedark.github.io)
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+Public devblog and digital garden for **offsitedark**—covering ongoing engineering updates across [offsitedarklabs](https://github.com/offsitedarklabs) and [offsitedark](https://github.com/offsitedark) projects (including [offsitedark.com](https://offsitedark.com)), CVE notes, security research, and code write-ups.
 
-## Basic setup
+## Repository Layout
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+- [`source/content/`](./source/content) — Obsidian vault Markdown pages published to the site:
+  - `Devlogs/` — Development updates and progress logs across offsitedark projects
+  - `CVE Reports/` — Vulnerability notes and analyses
+  - `Code Challenges/` — Algorithm and systems notes
+  - `Understanding of Security Principles/` — Security fundamentals and study notes
+- [`source/raw_html/`](./source/raw_html) — Standalone HTML files copied directly into the build output
+- [`source/quartz.config.ts`](./source/quartz.config.ts) & [`source/quartz.layout.ts`](./source/quartz.layout.ts) — Quartz site theme, metadata, and layout configuration
 
-It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
+## Local Preview
 
-## Raw HTML pages
+```bash
+cd source
+npx quartz build --serve
+```
 
-There is a [source/raw_html](./source/raw_html) folder that gets copied into the build folder in CI. This lets you host arbitrary HTML outside of quartz. Example: https://defenderofbasic.github.io/obsidian-quartz-template/raw-html-test.html
+## Publishing
 
-I made the "raw HTML" option for people who are generating HTML UI's with Claude/ChatGPT but want to tweak them/host them themselves. Or make a personal archive of web pages, etc.
+Commits pushed to `main` automatically build the Obsidian vault with [Quartz](https://quartz.jzhao.xyz) and deploy to GitHub Pages via [`.github/workflows/ci.yaml`](./.github/workflows/ci.yaml).
 
-## Further customization
+---
 
-> Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
-
-https://quartz.jzhao.xyz/configuration
+Built with [Obsidian](https://obsidian.md) and [Quartz](https://github.com/jackyzha0/quartz).
